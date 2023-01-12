@@ -20,6 +20,8 @@ namespace Сalculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        private double value1 = 0;
+        private double value2 = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -29,8 +31,8 @@ namespace Сalculator
         {
             try
             {
-                double value1 = Convert.ToDouble(Value_1.Text);
-                double value2 = Convert.ToDouble(Value_2.Text);
+                value1 = Value_1.Text != "" ? Convert.ToDouble(Value_1.Text): 0;
+                value2 = Convert.ToDouble(Value_2.Text);
                 switch (Combo_Function.SelectedIndex)
                 {
                     case 0:
@@ -50,61 +52,69 @@ namespace Сalculator
                         ResultLabel.Content = "" + (value1 * value2);
                         break;
                     case 4:
-                        ResultLabel.Content = "" + (Math.Sin(value2));
+                        ResultLabel.Content = "" + Math.Round((Math.Sin(value2)));
                         break;
                     case 5:
-                        ResultLabel.Content = "" + (Math.Cos(value2));
+                        ResultLabel.Content = "" + Math.Round((Math.Cos(value2)));
                         break;
                     case 6:
-                        ResultLabel.Content = "" + (Math.Sin(value2) / Math.Cos(value2));
+                        ResultLabel.Content = "" + Math.Round((Math.Sin(value2) / Math.Cos(value2)));
                         break;
                     case 7:
-                        ResultLabel.Content = "" + (Math.Cos(value2) / Math.Sin(value2));
+                        ResultLabel.Content = "" + Math.Round((Math.Cos(value2) / Math.Sin(value2)));
                         break;
                 }
             }
             catch(Exception ex)
             {
-                MessageBox.Show("Заполните поля", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("" + ex, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         private void PlusButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
+            ValueText.Visibility = Visibility.Visible;
         }
 
         private void MinusButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
+            ValueText.Visibility = Visibility.Visible;
         }
 
         private void DelenieButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
+            ValueText.Visibility = Visibility.Visible;
         }
 
         private void UmnojenieButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
+            ValueText.Visibility = Visibility.Visible;
         }
         private void SinButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
+            ValueText.Visibility = Visibility.Hidden;
         }
 
         private void CosButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
+            ValueText.Visibility = Visibility.Hidden;
         }
 
         private void TngButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
+            ValueText.Visibility = Visibility.Hidden;
         }
 
         private void CtngButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
+            ValueText.Visibility = Visibility.Hidden;
         }
     }
 }
