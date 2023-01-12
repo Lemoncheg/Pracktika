@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Pracktika\Сalculator\bin\Debug\Сalculator.exe.config
+C:\Users\user\Desktop\Pracktika\Сalculator\bin\Debug\Сalculator.exe
+C:\Users\user\Desktop\Pracktika\Сalculator\bin\Debug\Сalculator.pdb
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator_MarkupCompile.cache
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator_MarkupCompile.lref
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.g.resources
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.Properties.Resources.resources
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.exe
+C:\Users\user\Desktop\Pracktika\Сalculator\obj\Debug\Сalculator.pdb
