@@ -36,32 +36,32 @@ namespace Сalculator
                 switch (Combo_Function.SelectedIndex)
                 {
                     case 0:
-                        ResultLabel.Content = "" + (value1 + value2);
+                        ResultLabel.Content = "" + Math.Round((value1 + value2),4);
                         break;
                     case 1:
-                        ResultLabel.Content = "" + (value1 - value2);
+                        ResultLabel.Content = "" + Math.Round((value1 - value2),4);
                         break;
                     case 2:
                         if(value1 == 0)
                         {
                             MessageBox.Show("Деление на ноль", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                         }
-                        ResultLabel.Content = "" + (value1 / value2);
+                        ResultLabel.Content = "" + Math.Round((value1 / value2),4);
                         break;
                     case 3:
-                        ResultLabel.Content = "" + (value1 * value2);
+                        ResultLabel.Content = "" + Math.Round((value1 * value2), 4);
                         break;
                     case 4:
-                        ResultLabel.Content = "" + Math.Round((Math.Sin(value2)));
+                        ResultLabel.Content = "" + Math.Round((Math.Sin(value2)), 4);
                         break;
                     case 5:
-                        ResultLabel.Content = "" + Math.Round((Math.Cos(value2)));
+                        ResultLabel.Content = "" + Math.Round((Math.Cos(value2)), 4);
                         break;
                     case 6:
-                        ResultLabel.Content = "" + Math.Round((Math.Sin(value2) / Math.Cos(value2)));
+                        ResultLabel.Content = "" + Math.Round((Math.Sin(value2) / Math.Cos(value2)), 4);
                         break;
                     case 7:
-                        ResultLabel.Content = "" + Math.Round((Math.Cos(value2) / Math.Sin(value2)));
+                        ResultLabel.Content = "" + Math.Round((Math.Cos(value2) / Math.Sin(value2)), 4);
                         break;
                 }
             }
