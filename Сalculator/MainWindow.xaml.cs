@@ -52,7 +52,7 @@ namespace Сalculator
                         ResultLabel.Content = "" + Math.Round((value1 * value2), 4);
                         break;
                     case 4:
-                        ResultLabel.Content = "" + Math.Round(Math.Sin(value2), 1);
+                        ResultLabel.Content = "" + Math.Round(Math.Sin(value2), 4);
                         break;
                     case 5:
                         ResultLabel.Content = "" + Math.Round((Math.Cos(value2)), 4);
