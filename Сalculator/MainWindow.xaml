@@ -5,15 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Сalculator"
         mc:Ignorable="d"
-        Title="Канкулятор" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FFFFF9D6">
         <TextBox x:Name="Value_1" HorizontalAlignment="Left" Height="67" Margin="85,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="#FFF1F3FF" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="Value_2" HorizontalAlignment="Left" Height="67" Margin="337,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="#FFF1F3FF" FontSize="20" FontWeight="Bold"/>
-<<<<<<< HEAD
         <ComboBox x:Name="Combo_Function" HorizontalAlignment="Left" Height="67" Margin="236,127,0,0" VerticalAlignment="Top" Width="87" SelectedIndex="1" FontSize="25" FontWeight="Bold">
-=======
-        <ComboBox x:Name="Combo_Function" HorizontalAlignment="Left" Height="67" Margin="236,127,0,0" VerticalAlignment="Top" Width="78" FontSize="25" FontWeight="Bold">
->>>>>>> d84f6903a79d0db762dd57471cc6066d84d02c8f
             <Button x:Name="PlusButton" Content="+" FontWeight="Bold" FontSize="18" Click="PlusButton_Click"/>
             <Button x:Name="MinusButton" Content="-" FontWeight="Bold" FontSize="18" Click="MinusButton_Click"/>
             <Button x:Name="DelenieButton" Content="/" FontWeight="Bold" FontSize="18" Click="DelenieButton_Click"/>

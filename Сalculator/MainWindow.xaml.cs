@@ -62,11 +62,7 @@ namespace Сalculator
                         result = Math.Round(value1 * value2, 4);
                         break;
                     case 4:
-<<<<<<< HEAD
                         result = Math.Round(Math.Sin(value2 * degres) , 4);
-=======
-                        ResultLabel.Content = "" + Math.Round(Math.Sin(value2), 4);
->>>>>>> d84f6903a79d0db762dd57471cc6066d84d02c8f
                         break;
                     case 5:
                         result = Math.Round(Math.Cos(value2 * degres), 4);
