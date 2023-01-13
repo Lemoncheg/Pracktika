@@ -13,14 +13,14 @@
                 <GradientStop Color="#FFE8D352" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="StartValue" HorizontalAlignment="Left" Height="50" Margin="311,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="#FFE6E6E6" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Количество золота" HorizontalAlignment="Left" Height="47" Margin="254,10,0,0" VerticalAlignment="Top" Width="259" FontSize="25" Foreground="#FF474700" FontWeight="Bold"/>
-        <Image Margin="246,181,391,96" Source="pngegg.png" Stretch="Fill"/>
-        <Label Content="= 20 Золотых" HorizontalAlignment="Left" Height="44" Margin="401,241,0,0" VerticalAlignment="Top" Width="192" Foreground="#FF474700" FontSize="25" FontWeight="Bold"/>
-        <Label Content="4 X" HorizontalAlignment="Left" Height="44" Margin="199,241,0,0" VerticalAlignment="Top" Width="70" Foreground="#FF474700" FontSize="25" FontWeight="Bold"/>
-        <TextBox x:Name="Value" HorizontalAlignment="Left" Height="50" Margin="236,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="#FFE6E6E6" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="Result" Content="Потратить" HorizontalAlignment="Left" Height="50" Margin="426,330,0,0" VerticalAlignment="Top" Width="156" Background="#FFD6BF5D" FontSize="25" FontWeight="Bold" Foreground="#FF232300" Click="Result_Click"/>
-        <Label Content="Всего кристаллов: 800" HorizontalAlignment="Left" Height="44" Margin="229,139,0,0" VerticalAlignment="Top" Width="284" Foreground="#FF474700" FontSize="25" FontWeight="Bold"/>
+        <TextBox x:Name="StartValue" HorizontalAlignment="Left" Height="50" Margin="311,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="#FFE6E6E6" FontSize="20" FontWeight="Bold" OpacityMask="Black"/>
+        <Label Content="Количество золота" HorizontalAlignment="Left" Height="47" Margin="254,10,0,0" VerticalAlignment="Top" Width="259" FontSize="25" Foreground="#FF474700" FontWeight="Bold" OpacityMask="Black"/>
+        <Image Margin="246,181,391,96" Source="pngegg.png" Stretch="Fill" OpacityMask="Black"/>
+        <Label Content="= 20 Золотых" HorizontalAlignment="Left" Height="44" Margin="401,241,0,0" VerticalAlignment="Top" Width="192" Foreground="#FF474700" FontSize="25" FontWeight="Bold" OpacityMask="Black"/>
+        <Label Content="4 X" HorizontalAlignment="Left" Height="44" Margin="199,241,0,0" VerticalAlignment="Top" Width="70" Foreground="#FF474700" FontSize="25" FontWeight="Bold" OpacityMask="Black"/>
+        <TextBox x:Name="Value" HorizontalAlignment="Left" Height="50" Margin="236,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="#FFE6E6E6" FontSize="20" FontWeight="Bold" OpacityMask="Black"/>
+        <Button x:Name="Result" Content="Потратить" HorizontalAlignment="Left" Height="50" Margin="426,330,0,0" VerticalAlignment="Top" Width="156" Background="#FFD6BF5D" FontSize="25" FontWeight="Bold" Foreground="#FF232300" Click="Result_Click" OpacityMask="Black" FontFamily="Showcard Gothic"/>
+        <Label Content="Всего кристаллов: 800" HorizontalAlignment="Left" Height="44" Margin="229,139,0,0" VerticalAlignment="Top" Width="284" Foreground="#FF474700" FontSize="25" FontWeight="Bold" OpacityMask="Black"/>
 
     </Grid>
 </Window>

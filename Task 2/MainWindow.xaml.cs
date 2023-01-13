@@ -62,5 +62,9 @@ namespace Task_2
             Window1 window1 = new Window1();
             window1.Show();
         }
+        private void Task5Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

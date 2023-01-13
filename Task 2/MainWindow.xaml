@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Task2Button" Content="task 2" HorizontalAlignment="Left" Margin="88,144,0,0" VerticalAlignment="Top" Width="75" Click="Task2Button_Click" RenderTransformOrigin="0.448,1.02"/>
-        <Button x:Name="Task1Button" Content="task 1" HorizontalAlignment="Left" Margin="88,106,0,0" VerticalAlignment="Top" Width="75" Click="Task1Button_Click"/>
-        <Button x:Name="Task3Button" Content="task 3" HorizontalAlignment="Left" Margin="88,184,0,0" VerticalAlignment="Top" Width="75" Click="Task3Button_Click" RenderTransformOrigin="0.448,1.02"/>
-        <Button x:Name="Task4Button" Content="task 4" HorizontalAlignment="Left" Margin="88,226,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.448,1.02" Click="Task4Button_Click"/>
+        <Button x:Name="Task2Button" Content="task 2" HorizontalAlignment="Left" Margin="270,156,0,0" VerticalAlignment="Top" Width="235" Click="Task2Button_Click" RenderTransformOrigin="0.448,1.02" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task1Button" Content="task 1" HorizontalAlignment="Left" Margin="270,113,0,0" VerticalAlignment="Top" Width="235" Click="Task1Button_Click" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task3Button" Content="task 3" HorizontalAlignment="Left" Margin="270,201,0,0" VerticalAlignment="Top" Width="235" Click="Task3Button_Click" RenderTransformOrigin="0.448,1.02" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task4Button" Content="task 4" HorizontalAlignment="Left" Margin="270,249,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.448,1.02" Click="Task4Button_Click" Height="22" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task5Button" Content="task 5" HorizontalAlignment="Left" Margin="270,290,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.448,1.02" Click="Task5Button_Click" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
 
     </Grid>
 </Window>
