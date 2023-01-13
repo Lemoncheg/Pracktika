@@ -115,6 +115,7 @@ namespace Сalculator
             ComboDegrReg.Visibility = Visibility.Visible;
         }
 
+
         private void CosButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
