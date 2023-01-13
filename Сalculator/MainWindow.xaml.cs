@@ -36,7 +36,7 @@ namespace Сalculator
                 value1 = Value_1.Text != "" ? Convert.ToDouble(Value_1.Text): 0;
                 value2 = Convert.ToDouble(Value_2.Text);
 
-                if (ComboDegReg.SelectedIndex == 0)
+                if (ComboDegrReg.SelectedIndex == 0)
                 {
                     degres = Math.PI / 180;
                 }
@@ -85,55 +85,55 @@ namespace Сalculator
         {
             Value_1.Visibility = Visibility.Visible;
             ValueText.Visibility = Visibility.Visible;
-            ComboDegReg.Visibility = Visibility.Hidden;
+            ComboDegrReg.Visibility = Visibility.Hidden;
         }
 
         private void MinusButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
             ValueText.Visibility = Visibility.Visible;
-            ComboDegReg.Visibility = Visibility.Hidden;
+            ComboDegrReg.Visibility = Visibility.Hidden;
         }
 
         private void DelenieButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
             ValueText.Visibility = Visibility.Visible;
-            ComboDegReg.Visibility = Visibility.Hidden;
+            ComboDegrReg.Visibility = Visibility.Hidden;
         }
 
         private void UmnojenieButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Visible;
             ValueText.Visibility = Visibility.Visible;
-            ComboDegReg.Visibility = Visibility.Hidden;
+            ComboDegrReg.Visibility = Visibility.Hidden;
         }
         private void SinButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
             ValueText.Visibility = Visibility.Hidden;
-            ComboDegReg.Visibility = Visibility.Visible;
+            ComboDegrReg.Visibility = Visibility.Visible;
         }
 
         private void CosButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
             ValueText.Visibility = Visibility.Hidden;
-            ComboDegReg.Visibility = Visibility.Visible;
+            ComboDegrReg.Visibility = Visibility.Visible;
         }
 
         private void TngButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
             ValueText.Visibility = Visibility.Hidden;
-            ComboDegReg.Visibility = Visibility.Visible;
+            ComboDegrReg.Visibility = Visibility.Visible;
         }
 
         private void CtngButton_Click(object sender, RoutedEventArgs e)
         {
             Value_1.Visibility = Visibility.Hidden;
             ValueText.Visibility = Visibility.Hidden;
-            ComboDegReg.Visibility = Visibility.Visible;
+            ComboDegrReg.Visibility = Visibility.Visible;
         }
     }
 }

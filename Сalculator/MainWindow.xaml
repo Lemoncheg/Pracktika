@@ -25,7 +25,7 @@
         <Label Content="Число 2" HorizontalAlignment="Left" Height="35" Margin="337,76,0,0" VerticalAlignment="Top" Width="132" FontSize="15" FontWeight="Bold" Background="{x:Null}"/>
         <Label Content="Результат" HorizontalAlignment="Left" Height="35" Margin="503,76,0,0" VerticalAlignment="Top" Width="132" FontSize="15" FontWeight="Bold" Background="{x:Null}"/>
         <Label Content="Знак" HorizontalAlignment="Left" Height="35" Margin="236,76,0,0" VerticalAlignment="Top" Width="132" FontSize="15" FontWeight="Bold" Background="{x:Null}"/>
-        <ComboBox x:Name="ComboDegReg" HorizontalAlignment="Left" Margin="111,142,0,0" VerticalAlignment="Top" Width="78" Height="35" SelectedIndex="0" Visibility="Hidden">
+        <ComboBox x:Name="ComboDegrReg" HorizontalAlignment="Left" Margin="111,142,0,0" VerticalAlignment="Top" Width="78" Height="35" SelectedIndex="0" Visibility="Hidden">
             <TextBlock FontWeight="Bold" FontSize="20" TextAlignment="Center" Text="DEG"/>
             <TextBlock FontWeight="Bold" FontSize="20" TextAlignment="Center" Text="REG"/>
         </ComboBox>
