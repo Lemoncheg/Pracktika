@@ -5,11 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Сalculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Канкулятор" Height="450" Width="800">
     <Grid Background="#FFFFF9D6">
         <TextBox x:Name="Value_1" HorizontalAlignment="Left" Height="67" Margin="85,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="#FFF1F3FF" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="Value_2" HorizontalAlignment="Left" Height="67" Margin="337,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="#FFF1F3FF" FontSize="20" FontWeight="Bold"/>
-        <ComboBox x:Name="Combo_Function" HorizontalAlignment="Left" Height="67" Margin="236,127,0,0" VerticalAlignment="Top" Width="78">
+<<<<<<< HEAD
+        <ComboBox x:Name="Combo_Function" HorizontalAlignment="Left" Height="67" Margin="236,127,0,0" VerticalAlignment="Top" Width="87" SelectedIndex="1" FontSize="25" FontWeight="Bold">
+=======
+        <ComboBox x:Name="Combo_Function" HorizontalAlignment="Left" Height="67" Margin="236,127,0,0" VerticalAlignment="Top" Width="78" FontSize="25" FontWeight="Bold">
+>>>>>>> d84f6903a79d0db762dd57471cc6066d84d02c8f
             <Button x:Name="PlusButton" Content="+" FontWeight="Bold" FontSize="18" Click="PlusButton_Click"/>
             <Button x:Name="MinusButton" Content="-" FontWeight="Bold" FontSize="18" Click="MinusButton_Click"/>
             <Button x:Name="DelenieButton" Content="/" FontWeight="Bold" FontSize="18" Click="DelenieButton_Click"/>
@@ -25,6 +29,10 @@
         <Label Content="Число 2" HorizontalAlignment="Left" Height="35" Margin="337,76,0,0" VerticalAlignment="Top" Width="132" FontSize="15" FontWeight="Bold" Background="{x:Null}"/>
         <Label Content="Результат" HorizontalAlignment="Left" Height="35" Margin="503,76,0,0" VerticalAlignment="Top" Width="132" FontSize="15" FontWeight="Bold" Background="{x:Null}"/>
         <Label Content="Знак" HorizontalAlignment="Left" Height="35" Margin="236,76,0,0" VerticalAlignment="Top" Width="132" FontSize="15" FontWeight="Bold" Background="{x:Null}"/>
+        <ComboBox x:Name="ComboDegReg" HorizontalAlignment="Left" Margin="111,142,0,0" VerticalAlignment="Top" Width="78" Height="35" SelectedIndex="0" Visibility="Hidden">
+            <TextBlock FontWeight="Bold" FontSize="20" TextAlignment="Center" Text="DEG"/>
+            <TextBlock FontWeight="Bold" FontSize="20" TextAlignment="Center" Text="REG"/>
+        </ComboBox>
 
     </Grid>
 </Window>
