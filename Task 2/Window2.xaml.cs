@@ -23,5 +23,20 @@ namespace Task_2
         {
             InitializeComponent();
         }
+
+        private void ResultButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int valueInOchered = Convert.ToInt32(ValueInOchered.Text);
+                int timeInHour = (valueInOchered * 10) / 60;
+                int timeInMinute = (valueInOchered * 10) - (timeInHour * 60);
+                TimeLabel.Content = $"Время: {timeInHour} часа {timeInMinute} минут";
+            }
+            catch
+            {
+                MessageBox.Show("Введите количество бабушек", "Ошибка");
+            }
+        }
     }
 }

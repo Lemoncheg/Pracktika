@@ -64,7 +64,14 @@ namespace Task_2
         }
         private void Task5Button_Click(object sender, RoutedEventArgs e)
         {
+            Window2 window2 = new Window2();
+            window2.Show();
+        }
 
+        private void Task6Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 window3 = new Window3();
+            window3.Show();
         }
     }
 }

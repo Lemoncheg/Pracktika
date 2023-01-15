@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Практика-2" Height="406" Width="383">
     <Grid>
-        <Button x:Name="Task2Button" Content="task 2" HorizontalAlignment="Left" Margin="270,156,0,0" VerticalAlignment="Top" Width="235" Click="Task2Button_Click" RenderTransformOrigin="0.448,1.02" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
-        <Button x:Name="Task1Button" Content="task 1" HorizontalAlignment="Left" Margin="270,113,0,0" VerticalAlignment="Top" Width="235" Click="Task1Button_Click" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
-        <Button x:Name="Task3Button" Content="task 3" HorizontalAlignment="Left" Margin="270,201,0,0" VerticalAlignment="Top" Width="235" Click="Task3Button_Click" RenderTransformOrigin="0.448,1.02" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
-        <Button x:Name="Task4Button" Content="task 4" HorizontalAlignment="Left" Margin="270,249,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.448,1.02" Click="Task4Button_Click" Height="22" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
-        <Button x:Name="Task5Button" Content="task 5" HorizontalAlignment="Left" Margin="270,290,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.448,1.02" Click="Task5Button_Click" Height="23" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task2Button" Content="task 2" HorizontalAlignment="Center" Margin="0,99,0,0" VerticalAlignment="Top" Width="237" Click="Task2Button_Click" RenderTransformOrigin="0.448,1.02" Height="27" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task1Button" Content="task 1" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Width="237" Click="Task1Button_Click" Height="27" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task3Button" Content="task 3" HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top" Width="237" Click="Task3Button_Click" RenderTransformOrigin="0.448,1.02" Height="28" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task4Button" Content="task 4" HorizontalAlignment="Center" Margin="0,209,0,0" VerticalAlignment="Top" Width="237" RenderTransformOrigin="0.448,1.02" Click="Task4Button_Click" Height="26" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task5Button" Content="task 5" HorizontalAlignment="Center" Margin="0,258,0,0" VerticalAlignment="Top" Width="237" RenderTransformOrigin="0.448,1.02" Click="Task5Button_Click" Height="27" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="Task6Button" Content="task 6" HorizontalAlignment="Center" Margin="0,312,0,0" VerticalAlignment="Top" Width="237" RenderTransformOrigin="0.448,1.02" Click="Task6Button_Click" Height="27" FontSize="15" FontFamily="Segoe UI Black" FontWeight="Bold"/>
 
     </Grid>
 </Window>

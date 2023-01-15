@@ -5,16 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task_2"
         mc:Ignorable="d"
-        Title="Window2" Height="450" Width="800">
+        Title="Счетчик" Height="338" Width="522">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFEDF9CD" Offset="0"/>
-                <GradientStop Color="#FFADB49B" Offset="1"/>
+                <GradientStop Color="#FFCACACA" Offset="0"/>
+                <GradientStop Color="#FFCCCCCC" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="ValueInOchered" HorizontalAlignment="Left" Height="46" Margin="312,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Background="#FFFDEECF" FontSize="25" FontWeight="Bold"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="44" Margin="312,218,0,0" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="ValueInOchered" HorizontalAlignment="Center" Height="46" Margin="0,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="25" FontWeight="Bold" Background="White"/>
+        <Button x:Name="ResultButton" Content="Расчет" HorizontalAlignment="Center" Height="44" Margin="0,149,0,0" VerticalAlignment="Top" Width="125" Background="DarkGray" Foreground="#FF272727" FontSize="20" FontWeight="Bold" Click="ResultButton_Click" FontFamily="Sitka Text"/>
+        <Label Content="Кол-во людей в очереди." HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" Width="264" FontWeight="Bold" FontSize="20" FontFamily="Sitka Text" Foreground="#FF272727"/>
+        <Label x:Name="TimeLabel" Content="Время: " HorizontalAlignment="Center" Height="46" Margin="0,223,0,0" VerticalAlignment="Top" Width="306" FontSize="23" FontFamily="Sitka Text" Foreground="#FF272727"/>
 
     </Grid>
 </Window>

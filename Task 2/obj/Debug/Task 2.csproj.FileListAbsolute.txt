@@ -15,3 +15,25 @@ C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Task 2.exe
 C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Task 2.pdb
 C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Window1.g.cs
 C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Window1.baml
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\bin\Debug\Task 2.exe.config
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\bin\Debug\Task 2.exe
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\bin\Debug\Task 2.pdb
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.csproj.AssemblyReference.cache
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\MainWindow.g.cs
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window1.g.cs
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window2.g.cs
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\App.g.cs
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2_MarkupCompile.cache
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2_MarkupCompile.lref
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\MainWindow.baml
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window1.baml
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window2.baml
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.g.resources
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task_2.Properties.Resources.resources
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.csproj.GenerateResource.cache
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.csproj.CoreCompileInputs.cache
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.exe
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.pdb
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window3.g.cs
+C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window3.baml
