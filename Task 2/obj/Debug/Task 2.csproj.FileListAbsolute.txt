@@ -37,3 +37,7 @@ C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.exe
 C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Task 2.pdb
 C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window3.g.cs
 C:\Users\Араши\Desktop\Pracktiks\Pracktika\Task 2\obj\Debug\Window3.baml
+C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Window2.g.cs
+C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Window3.g.cs
+C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Window2.baml
+C:\Users\user\Desktop\Pracktika\Task 2\obj\Debug\Window3.baml
