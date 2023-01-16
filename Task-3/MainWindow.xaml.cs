@@ -24,5 +24,70 @@ namespace Task_3
         {
             InitializeComponent();
         }
+
+        private void ResultButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string word = WordBox.Text;
+                switch (word)
+                {
+                    case "Дождь":
+                    case "дождь":
+                        WordResult.Content = "Rain";
+                        break;
+                    case "Погода":
+                    case "погода":
+                        WordResult.Content = "Weather";
+                        break;
+                    case "Облачно":
+                    case "облачно":
+                        WordResult.Content = "Cloudy";
+                        break;
+                    case "Пасмурно":
+                    case "пасмурно":
+                        WordResult.Content = "Dull";
+                        break;
+                    case "Туман":
+                    case "туман":
+                        WordResult.Content = "Fog";
+                        break;
+                    case "Снег":
+                    case "снег":
+                        WordResult.Content = "Snow";
+                        break;
+                    case "Ураган":
+                    case "ураган":
+                        WordResult.Content = "Hurricane";
+                        break;
+                    case "Ветрено":
+                    case "ветрено":
+                        WordResult.Content = "Windy";
+                        break;
+                    case "Осадки":
+                    case "осадки":
+                        WordResult.Content = "Precipitation";
+                        break;
+                    case "Солнечно":
+                    case "солнечно":
+                        WordResult.Content = "Sunny";
+                        break;
+                    default:
+                        MessageBox.Show("Такого слова в словаре нету", "Error");
+                        break;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Некоректно", "Error");
+            }
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            Close();
+        }
     }
 }

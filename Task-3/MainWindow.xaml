@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task_3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Переводчик" Height="450" Width="800">
+    <Grid Background="#FFD8D8D8">
+        <TextBox x:Name="WordBox" HorizontalAlignment="Left" Height="58" Margin="232,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+        <Button x:Name="ResultButton" Content="Перевод" HorizontalAlignment="Left" Height="58" Margin="452,116,0,0" VerticalAlignment="Top" Width="107" Click="ResultButton_Click" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="WordResult" Content="" HorizontalAlignment="Left" Height="49" Margin="256,238,0,0" VerticalAlignment="Top" Width="230" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="NextButton" Content="Next" HorizontalAlignment="Left" Height="48" Margin="639,34,0,0" VerticalAlignment="Top" Width="73" Background="White" FontSize="18" FontWeight="Bold" Click="NextButton_Click"/>
+
     </Grid>
 </Window>
