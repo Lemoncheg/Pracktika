@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="636">
     <Grid Background="Black">
-        <Label x:Name="QuestionsLabel" Content="Как вас зовут?" HorizontalAlignment="Left" Height="62" Margin="243,155,0,0" VerticalAlignment="Top" Width="168" Background="{x:Null}" Foreground="#FF4FFF00" FontSize="25" FontWeight="Bold" FontFamily="Bahnschrift SemiBold Condensed"/>
-        <Button x:Name="AnswerButton" Content="Ответ" HorizontalAlignment="Left" Height="46" Margin="441,262,0,0" VerticalAlignment="Top" Width="65" Foreground="#FF4FFF00" Background="Black" FontSize="15" FontFamily="Bahnschrift SemiBold Condensed" Click="AnswerButton_Click"/>
-        <TextBox x:Name="BoxAnswer" HorizontalAlignment="Center" Height="22" Margin="0,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Background="Black" FontFamily="Bahnschrift SemiBold Condensed" Foreground="#FF4FF600" FontSize="15" TextAlignment="Left"/>
+        <Label x:Name="QuestionsLabel" Content="Как вас зовут?" HorizontalAlignment="Left" Height="62" Margin="243,155,0,0" VerticalAlignment="Top" Width="168" Background="{x:Null}" Foreground="GreenYellow" FontSize="25" FontWeight="Bold" FontFamily="Bahnschrift SemiBold Condensed"/>
+        <Button x:Name="AnswerButton" Content="Ответ" HorizontalAlignment="Left" Height="46" Margin="441,262,0,0" VerticalAlignment="Top" Width="65" Foreground="GreenYellow" Background="Black" FontSize="15" FontFamily="Bahnschrift SemiBold Condensed" Click="AnswerButton_Click"/>
+        <TextBox x:Name="BoxAnswer" HorizontalAlignment="Center" Height="22" Margin="0,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Background="Black" FontFamily="Bahnschrift SemiBold Condensed" Foreground="GreenYellow" FontSize="15" TextAlignment="Left"/>
 
     </Grid>
 </Window>
