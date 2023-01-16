@@ -34,6 +34,7 @@ namespace Task_2
                 if (BoxAnswer.Text == "")
                 {
                     MessageBox.Show("Ответь на вопрос", "Error");
+                    cont = i;
                 }
                 else
                 {
@@ -47,24 +48,32 @@ namespace Task_2
                             result += $"Ваше имя: {BoxAnswer.Text}";
                             BoxAnswer.Text = "";
                             QuestionsLabel.Content = "Сколько вам лет?";
-                            cont = i;
+                            i = cont;
                         }
                         break;
                     case 2:
-                        if (BoxAnswer.Text != "")
+                        try
                         {
-                            if (Convert.ToInt32(BoxAnswer.Text) < 0)
+                            if (BoxAnswer.Text != "")
                             {
-                                MessageBox.Show("Ответь на вопрос", "Error");
-                                i = 2;
+                                if (Convert.ToInt32(BoxAnswer.Text) < 0)
+                                {
+                                    MessageBox.Show("Ответь на вопрос", "Error");
+                                    i = 2;
+                                }
+                                else
+                                {
+                                    result += $"\nВаш возрост: {Convert.ToInt32(BoxAnswer.Text)}";
+                                    BoxAnswer.Text = "";
+                                    QuestionsLabel.Content = "Ваш знак зодиака?";
+                                    cont = i;
+                                }
                             }
-                            else
-                            {
-                                result += $"\nВаш возрост: {Convert.ToInt32(BoxAnswer.Text)}";
-                                BoxAnswer.Text = "";
-                                QuestionsLabel.Content = "Ваш знак зодиака?";
-                                cont = i;
-                            }
+                        }
+                        catch
+                        {
+                            MessageBox.Show("Ответь на вопрос", "Error");
+                            i = cont;
                         }
                         break;
                     case 3:
