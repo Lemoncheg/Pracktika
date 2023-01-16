@@ -22,7 +22,6 @@ namespace Сalculator
     {
         private double value1 = 0;
         private double value2 = 0;
-        private double result;
         private double degres;
         public MainWindow()
         {
@@ -46,35 +45,34 @@ namespace Сalculator
                 switch (Combo_Function.SelectedIndex)
                 {
                     case 0:
-                        Math.Round(value1 + value2, 4);
+                        ResultLabel.Content = "" + Math.Round(value1 + value2, 4);
                         break;
                     case 1:
-                        result = Math.Round(value1 - value2,4);
+                        ResultLabel.Content = "" + Math.Round(value1 - value2,4);
                         break;
                     case 2:
-                        if(value1 == 0)
+                        if(value1 == 0 || value2 == 0)
                         {
                             MessageBox.Show("Деление на ноль", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                         }
-                        result = Math.Round(value1 / value2, 4);
+                        ResultLabel.Content = "" + Math.Round(value1 / value2, 4);
                         break;
                     case 3:
-                        result = Math.Round(value1 * value2, 4);
+                        ResultLabel.Content = "" + Math.Round(value1 * value2, 4);
                         break;
                     case 4:
-                        result = Math.Round(Math.Sin(value2 * degres) , 4);
+                        ResultLabel.Content = "" + Math.Round(Math.Sin(value2 * degres) , 4);
                         break;
                     case 5:
-                        result = Math.Round(Math.Cos(value2 * degres), 4);
+                        ResultLabel.Content = "" + Math.Round(Math.Cos(value2 * degres), 4);
                         break;
                     case 6:
-                        result = Math.Round(Math.Sin(value2 * degres) / Math.Cos(value2 * degres), 4);
+                        ResultLabel.Content = "" + Math.Round(Math.Sin(value2 * degres) / Math.Cos(value2 * degres), 4);
                         break;
                     case 7:
-                        result = Math.Round(Math.Cos(value2 * degres) / Math.Sin(value2 * degres), 4);
+                        ResultLabel.Content = "" + Math.Round(Math.Cos(value2 * degres) / Math.Sin(value2 * degres), 4);
                         break;
                 }
-                ResultLabel.Content = "" + result;
             }
             catch
             {
