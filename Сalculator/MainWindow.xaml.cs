@@ -55,7 +55,8 @@ namespace Сalculator
                         {
                             MessageBox.Show("Деление на ноль", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                         }
-                        ResultLabel.Content = "" + Math.Round(value1 / value2, 4);
+                        else
+                            ResultLabel.Content = "" + Math.Round(value1 / value2, 4);
                         break;
                     case 3:
                         ResultLabel.Content = "" + Math.Round(value1 * value2, 4);
